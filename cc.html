@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+  position: relative; /* Needed to ensure proper positioning */
+  transform: translateY(-100%);
+}
+
+        .box {
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+  position: relative;
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.box:hover {
+  transform: translateY(-50%); /* Move up by 50% of its height on hover */
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">I will move up</div>
+
+</body>
+</html>
